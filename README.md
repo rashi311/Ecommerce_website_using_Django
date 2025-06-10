@@ -20,8 +20,8 @@ A fully functional e-commerce web application built using **Django**, supporting
 ## 🧰 Tech Stack
 
 - **Backend**: Django 4.x+
-- **Frontend**: HTML, CSS, JavaScript (Bootstrap/Tailwind optional)
-- **Database**: SQLite3 (you can switch to PostgreSQL)
+- **Frontend**: HTML, CSS, JavaScript ,Bootstrap,Tailwind 
+- **Database**: SQLite3 
 - **Auth**: Django built-in auth
 - **Payments**: (Optional) Stripe, Razorpay
 
@@ -38,6 +38,27 @@ ecom/
 └── requirements.txt
 ```
 
+## Screenshots
+
+<p align="center">
+  <img src="images/screenshot19.png" width="500">
+</p>
+
+<p align="center">
+  <img src="images/screenshot20.png" width="500">
+</p>
+
+<p align="center">
+  <img src="images/screenshot21.png" width="500">
+</p>
+
+<p align="center">
+  <img src="images/screenshot22.png" width="500">
+</p>
+
+<p align="center">
+  <img src="images/screenshot23.png" width="500">
+</p>
 
 ## 📦 Installation & Setup
 1. Clone the Repository
@@ -89,3 +110,22 @@ Go to: http://127.0.0.1:8000
 
 - View order summary after placing the order
 
+
+⚙️ Customization
+- 🔒 Add payment gateway (Stripe/Razorpay)
+
+- 🖼️ Enable image uploads via media/
+
+- 🧾 Add invoice generation
+
+- 📈 Add filters/search functionality
+
+
+🔒 Admin Panel
+Go to http://127.0.0.1:8000/admin/ and log in with your superuser credentials to:
+
+- Manage products
+
+- Manage users
+
+- View orders
